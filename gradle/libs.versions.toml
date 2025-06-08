@@ -21,6 +21,7 @@ coreKtx = "1.16.0"
 fragmentKtx = "1.8.8"
 coreKtxVersion = "1.16.0"
 flexbox = "3.0.0"
+recyclerview = "1.4.0"
 # SDK Levels
 appMinSdk = "34"
 compileSdk = "35"
@@ -55,7 +56,7 @@ coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion" }
 flexbox = { group = "com.google.android.flexbox", name = "flexbox", version.ref = "flexbox" }
-
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

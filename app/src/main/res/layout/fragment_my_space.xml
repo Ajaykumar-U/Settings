@@ -9,6 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="My_Space_fragment" />
+        android:text="My_Space_fragment"
+        android:textColor="@color/text_primary_color"/>
 
 </FrameLayout>
